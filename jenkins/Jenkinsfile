@@ -16,9 +16,9 @@ pipeline {
                 }
             }
         }
-		stage('Test') {
+		stage('Deliver') {
             steps {
-                echo "Testing completed"
+                echo "Delivery completed"
             }
         }
 		stage('Complete') {
